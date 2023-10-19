@@ -16,7 +16,7 @@ cp lake-packages/mathlib/lean-toolchain lean-toolchain
 
 This will modify your `lean-toolchain` file, replacing it with the one used by the version of Mathlib that you have just installed. 
 
-*In principle, this is not necessary, the content of the two files should already be the same.*
+> **Note:** *In principle, this step is not necessary, the content of the two files should already be the same.*
 
 4. Run the command line
 
