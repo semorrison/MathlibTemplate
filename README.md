@@ -22,7 +22,7 @@ when you position your cursor after the `example` line (for instance immediately
 
 If it does not work, see the [Troubleshooting](#troubleshooting) section below.
 
-## Updating the Lean version
+## Updating Lean
 
 If you want to update the Lean version and the copy of Mathlib used in this repo, run `lake update` before `lake exe cache get`. This will first update Mathlib and then set the Lean version to the same as the one used by the more recent copy of Mathlib. The changes will be reflected in the files `lake-manifest.json` and `lean-toolchain` (and of course in the lake packages themselves).
 
