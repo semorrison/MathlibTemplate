@@ -6,13 +6,13 @@ This sets up a basic Mathlib project on your machine. If you first need to insta
 
 1. Clone the present repository.
 
-2. Run `lake update` in a terminal window (inside the cloned repo). This will install Mathlib in your repo, creating a bunch of new files, including a directory `lake-packages`.
+2. Run `lake update` in a terminal window (inside the cloned repo). This will install Mathlib in your repo, creating a bunch of new files, including a directory called `lake-packages`.
 
 3. If you have done this in VS Code, you may see a `Restart Lean` message. If so, click on it.
 
 4. Run the command line
 
-```
+```script
 cp lake-packages/mathlib/lean-toolchain lean-toolchain
 ```
 
@@ -22,7 +22,7 @@ This will modify your `lean-toolchain` file, replacing it with the one used by t
 
 6. Run the command line
 
-```
+```script
 lake exe cache get
 ```
 
