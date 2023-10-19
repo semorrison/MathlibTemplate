@@ -1,7 +1,3 @@
-#eval 1 + 1
+import Mathlib
 
-#check 3
-
-def f (n : Nat) : Nat := 2 * n
-
-#eval f 3
+example (G : Type) [Group G] : 1 = 1 := by {rfl} 
