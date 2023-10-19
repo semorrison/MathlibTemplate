@@ -28,4 +28,8 @@ lake exe cache get
 
 This downloads the binaries, so you can avoid building Mathlib locally (which takes a long time). In principle, though, this can be done via the command `lake build`.
 
-7. If you are not already in VS Code, open it and go to the repo that you have cloned. Then go to the file `test.lean` and check that there is no error message (the file imports the whole of Mathlib, which may take a few seconds). In the Lean Infoview panel, you should see the message **No goals** when you position your cursor after the `example` line (for instance immediately after the `by {rfl}`).
+7. If you are not already in VS Code, open it and go to the repo that you have cloned. Then go to the file `test.lean` and check that there is no error message (the file imports the file `Mathlib.Algebra.Group.Defs` of the Mathlib library, which should only take a few seconds). In the Lean Infoview panel, you should see the message
+
+> **No goals**
+
+when you position your cursor after the `example` line (for instance immediately after the `by {rfl}`).
