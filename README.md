@@ -1,5 +1,6 @@
 # Mathlib Template
-Lean Template (with mathlib)
+
+This sets up a basic Mathlib project on your machine. If you first need to install Lean 4, you can do so by following the instructions on this basic [Lean Template](https://github.com/matematiflo/LeanTemplate) repository.
 
 ## Install instructions
 
@@ -27,4 +28,4 @@ lake exe cache get
 
 This downloads the binaries, so you can avoid building Mathlib locally (which takes a long time). In principle, though, this can be done via the command `lake build`.
 
-7. If you are not already in VS Code, open it and go to the repo that you have cloned. Then go to the file `test.lean` and check that there is no error message (the file imports the whole of Mathlib, which may take a few seconds). In the Lean Infoview panel, you should see the message **No goals**.
+7. If you are not already in VS Code, open it and go to the repo that you have cloned. Then go to the file `test.lean` and check that there is no error message (the file imports the whole of Mathlib, which may take a few seconds). In the Lean Infoview panel, you should see the message **No goals** when you position your cursor after the `example` line (for instance immediately after the `by {rfl}`).
