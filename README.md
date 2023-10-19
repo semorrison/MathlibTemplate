@@ -1,2 +1,2 @@
 # Mathlib Template
-Lean Template (without mathlib)
+Lean Template (with mathlib)
