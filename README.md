@@ -28,4 +28,4 @@ If you want to update the Lean version and the copy of Mathlib used in this repo
 
 ## Troubleshooting
 
-If you get error messages when parsing `test.lean`, try running `lake update` before `lake exe cache get`. You should then close the file and open it again.
+If you get error messages when parsing `test.lean`, try running `lake update` before `lake exe cache get`. Then close the file `test.lean` and open it again.
